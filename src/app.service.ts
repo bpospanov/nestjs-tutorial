@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-@Injectable
+@Injectable()
 export class AppService {
   getUsers() {
     return [{ id: 1, name: 'Ulbi TV' }];
