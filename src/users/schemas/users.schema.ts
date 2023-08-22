@@ -12,7 +12,7 @@ export class User {
 
   @ApiProperty({ example: 'mypassword', description: 'пароль пользователя' })
   @Prop({ required: true })
-  password: number;
+  password: string;
 
   @ApiProperty({ example: true, description: 'Забанен пользователь или нет' })
   @Prop({ default: false })
